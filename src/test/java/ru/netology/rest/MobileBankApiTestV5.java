@@ -3,8 +3,8 @@ package ru.netology.rest;
 import io.restassured.http.ContentType;
 import org.junit.jupiter.api.Test;
 
-import static com.sun.org.apache.xerces.internal.util.FeatureState.is;
 import static io.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.is;
 
 public class MobileBankApiTestV5 {
     @Test
